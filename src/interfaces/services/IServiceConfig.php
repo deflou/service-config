@@ -66,4 +66,9 @@ interface IServiceConfig
      * @return array
      */
     public function getServiceActions(): array;
+    
+    /**
+     * @return bool
+     */
+    public function isNotValid(): bool;
 }
