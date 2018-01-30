@@ -136,7 +136,7 @@ class ServiceConfigAbstract implements IServiceConfig
      */
     public function isNotValid(): bool
     {
-        return isset(
+        return !isset(
             $this->config[static::CONFIG__NAME],
             $this->config[static::CONFIG__TITLE],
             $this->config[static::CONFIG__DESCRIPTION],
