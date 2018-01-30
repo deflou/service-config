@@ -1,0 +1,15 @@
+{
+  "name": "deflou/service-config",
+  "description": "Service config package for DeFlou",
+  "keywords": ["service", "config", "deflou"],
+  "type": "project",
+  "license": "BSD-3-Clause",
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "deflou\\": "src/"
+    }
+  }
+}
