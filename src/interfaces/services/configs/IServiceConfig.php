@@ -1,5 +1,5 @@
 <?php
-namespace deflou\interfaces\services;
+namespace deflou\interfaces\services\configs;
 
 /**
  * IServiceConfig

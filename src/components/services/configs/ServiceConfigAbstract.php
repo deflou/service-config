@@ -1,12 +1,12 @@
 <?php
-namespace deflou\components\services;
+namespace deflou\components\services\configs;
 
-use deflou\interfaces\services\IServiceConfig;
+use deflou\interfaces\services\configs\IServiceConfig;
 
 /**
  * Class ServiceConfigAbstract
  *
- * @package deflou\components\services
+ * @package deflou\components\services\configs
  * @author aivanov@fix.ru
  */
 class ServiceConfigAbstract implements IServiceConfig
