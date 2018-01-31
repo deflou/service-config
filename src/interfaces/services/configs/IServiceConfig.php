@@ -37,12 +37,39 @@ interface IServiceConfig
     const CONFIG__SERVICE_ACTION_PARAMETERS = 'parameters';
     const CONFIG__SERVICE_ACTION_DISPATCHERS = 'dispatchers';
 
+    /**
+     * These consts is deprecated, they will be erased in the v0.3.0
+     * Please, use deflou\interfaces\compares\ICompare instead
+     */
+
+    /**
+     * @deprecated
+     */
     const COMPARE__EQUAL = 'eq';
+
+    /**
+     * @deprecated
+     */
     const COMPARE__NOT_EQUAL = 'neq';
+
+    /**
+     * @deprecated
+     */
     const COMPARE__GREATER = 'gt';
+
+    /**
+     * @deprecated
+     */
     const COMPARE__LOWER = 'lt';
+
+    /**
+     * @deprecated
+     */
     const COMPARE__LIKE = 'like';
 
+    /**
+     * @deprecated
+     */
     const COMPARE__DEFAULT = 'default';
 
     /**
